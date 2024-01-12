@@ -1,0 +1,116 @@
+ <html lang="es" dir="ltr">
+  <head> 
+    <title>Pagina del Profe Richar</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="css/index.css" />
+   
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+
+    <body>
+       <a href="paginas/login.html"><img src="img/icono.png" alt="Foto" class="logo" ></a>
+      <header>
+        <h1 class="h11">Cuestionario de AyDSI</h1>
+        <nav class="menu1">
+          <img src="img/" alt="">
+          <ul>
+
+            <li><a href="index.html" class="button">Inicio</a></li>
+            <li><a href="paginas/contacto.html" class="button">Contacto </a></li>
+            <li><a href="/paginas/login.html" class="button">Login</a></li>
+          </ul>
+        </nav>
+
+
+      </header>
+      <div>
+      </div> <br> <br>
+
+        <div class="divi">
+          <div class="divss">
+           <h2>Formulario de Viabilidad Técnica</h2>
+<form action="paginas/viabilidadtecnica.html" method="get">
+
+  <label for="proyecto">Nombre del Proyecto:</label>
+  <input type="text" id="proyecto" name="proyecto" required="" class=""><br> <br>
+
+  <label for="tecnologias">Tecnologías Necesarias:</label>
+  <input type="text" id="tecnologias" name="tecnologias" required="" class=""><br><br>
+  
+  <label for="recursos">Recursos Necesarios:</label>
+  <input type="text" id="recursos" name="recursos" required="" class=""><br>
+
+  <input type="submit" value="Enviar" class="button">
+</form>
+</div> <br>
+
+<div class="divs ">
+<h2 class="h11">Formulario de Viabilidad Financiera</h2>
+<form action="paginas/viabilidadfinanciera.html" method="get">
+
+  <label for="proyecto">Nombre del Proyecto:</label>
+  <input type="text" id="proyecto" name="proyecto" required=""><br><br> 
+
+  <label for="costo">Costo Estimado:</label>
+  <input type="text" id="costo" name="costo" required="" class=""><br> <br>
+
+
+  <label for="ingresos">Ingresos Esperados:</label>
+  <input type="text" id="ingresos" name="ingresos" required="" class=""><br> <br>
+
+
+  <input type="submit" value="Enviar" class="button">
+</form>
+</div><br>
+
+<div class="divsss">
+<h2>Formulario de Viabilidad Operativa</h2>
+<form action="paginas/viabilidadoperativa.html" method="get">
+
+  <label for="proyecto">Nombre del Proyecto:</label>
+  <input type="text" id="proyecto" name="proyecto" required=""><br><br>
+
+  <label for="procesos">Descripción de Procesos:</label>
+  <input type="text" id="procesos" name="procesos" required="" class=""><br> <br>
+
+
+  <label for="capacidades">Capacidades Necesarias:</label>
+  <input type="text" id="capacidades" name="capacidades" required="" class="" ><br> <br>
+
+
+  <input type="submit" value="Enviar" actio class="button">
+</form>
+</div>
+</div>
+
+
+<script>
+  // Función para buscar productos
+  function buscarProducto() {
+      const terminoBusqueda = document.querySelector('input[type="text"]').value.toLowerCase();
+      const catalogo = document.querySelectorAll('#catalogo ul li');
+
+      catalogo.forEach(item => {
+          const nombreProducto = item.querySelector('h3').textContent.toLowerCase();
+          if (nombreProducto.includes(terminoBusqueda)) {
+              item.style.display = 'block';
+          } else {
+              item.style.display = 'none';
+          }
+      });
+  }
+</script>
+<br><br><br>
+<footer>
+  
+  <ul>
+    <li><a href="/acerca-de" class="linkss">Info de empresa</a></li>
+    <li><a href="/conectar" class="linkss">Conectar</a></li>
+    <li><a href="/rrss" class="linkss">Redes Sociales</a></li>
+  </ul>
+  <p>&copy; Este codigo fue creado por David Villalona en 8/12/2023 </p>
+</footer>
+</body>
+</html>

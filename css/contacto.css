@@ -1,0 +1,165 @@
+/* Estilos para el encabezado */
+
+
+body {
+    background-image: url("../img/fondo\ 2.webp");
+    color: rgb(255, 255, 255);
+    background-size: 100rem;
+    height :665px;
+}
+
+.body1 {
+    background-color: #161616;
+    font-family: 'Hedvig Letters Serif', serif;
+    color: white;
+
+}
+
+div {
+    place-items: center;
+    display: grid;
+}
+
+.divs {
+    background-color: #303030;
+    padding-left: 75px;
+    padding-right: 75px;
+    border-radius: 15px;
+}
+
+.divss {
+    background-color: #303030;
+    padding-left: 90px;
+    padding-right: 80px;
+    border-radius: 15px;
+}
+
+.divsss {
+    background-color: #303030;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 15px;
+}
+
+.h11 {
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    right: 0px;
+    top: -5px;
+    
+}
+
+
+header {
+    background-color: #505050;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 0;
+    margin-top: -124px;
+    border-radius: 5px;
+}
+
+#circle {
+    background: rgb(0, 191, 255);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* Estilos para los enlaces de navegación */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilos para secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para botones */
+button {
+    background-color: #161616;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.button {
+    background-color:  #161616;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para párrafos */
+p {
+    line-height: 1.6;
+}
+
+/* Estilos para la barra de búsqueda */
+#busqueda {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #505050;
+    color: white;
+    padding: 1rem 0;
+    text-decoration: #161616;
+}
+
+.linkss {
+    text-decoration: none;
+    color: #000000;
+}
+
+.foon {
+    font-size: 30px;
+}   
+
+ul {
+    font-size: 25px;
+}
